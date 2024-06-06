@@ -1,0 +1,146 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon, .roblox-logo, .robux-icon, .notifications-icon, .settings-icon, .header-avatar {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-header .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-header .profile-info {
+    flex-grow: 1;
+}
+
+.profile-header .profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-header .profile-info .premium-icon {
+    margin-left: 10px;
+}
+
+.profile-header .profile-info p {
+    margin: 5px 0;
+}
+
+.profile-header .stats {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-header .stats span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.profile-header .stats img {
+    margin-right: 5px;
+}
+
+.profile-about, .profile-experiences {
+    margin-top: 20px;
+    background-color: rgba(50, 50, 50, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-experiences .experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-experiences .experience img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.profile-experiences .experience button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-experiences .experience-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-experiences .experience-list ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
